@@ -1,0 +1,17 @@
+version: "3"
+services:
+    stockticker:
+        container_name: stockticker
+        image: node:10-alpine
+        user: node
+        working_dir: /stockticker
+        networks:
+        - stockticker
+        ports:
+        - "3000:3000"
+        volumes:
+        - ./:/stockticker
+        command: "npm start"
+    
+networks:
+    stockticker:
