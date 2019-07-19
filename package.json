@@ -1,0 +1,23 @@
+{
+  "name": "stockticker",
+  "version": "1.0.0",
+  "description": "StockChecking Microservice",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bogpony-dev/st-date-compare-service.git"
+  },
+  "author": "Eamonn O Broithe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bogpony-dev/st-date-compare-service/issues"
+  },
+  "homepage": "https://github.com/bogpony-dev/st-date-compare-service#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "logger": "^1.0.1"
+  }
+}
